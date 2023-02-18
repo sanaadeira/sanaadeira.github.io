@@ -1130,33 +1130,26 @@ section.contact-us .right-info ul li span {
 /* ******************************* TERMS ******************************* */
 
 .term h2 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 800;
+  text-transform: lowercase;
   color: #fff;
   letter-spacing: 1px;
   text-align: center;
 }
 
-.term ul {
-  margin-bottom: 20px;
-  text-align: center;
+@media (max-width: 992px) {
+  .term h2 {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
 }
 
-.term ul li {
-  color: #fff;
-  padding: 5px;
- text-align: center;
-}
-
-.term p {
-  color: white;
-  text-align: center;
-}
-
-.footer ul li {
-  text-align: start;
+@media (max-width: 767px) {
+  .term h2 {
+    margin-bottom: 3px;
+    font-size: 8px;
+  }
 }
 
 .footer {
